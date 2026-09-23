@@ -1,0 +1,10 @@
+skladnik,M_min,M_max,K_min,K_max,jednostka,zrodlo
+kcal,2300,2700,1800,2200,kcal,IZZ 20-25 lat aktywnosc umiarkowana
+bialko,56,135,46,110,g,0.8-1.6 g/kg masy ciala
+tluszcz,51,105,40,86,g,20-35% energii
+nasycone,0,28,0,22,g,<10% energii
+wegle,259,438,203,358,g,45-65% energii
+blonnik,25,40,25,40,g,EFSA min 25 g
+cukier,0,60,0,50,g,WHO <10% energii cukry wolne
+sol,0,5,0,5,g,WHO <5 g
+kofeina,0,400,0,400,mg,EFSA <400 mg

@@ -1,0 +1,46 @@
+id,lokal,kategoria,nazwa,gramatura_g,cena_pln,kcal,bialko_g,tluszcz_g,nasycone_g,wegle_g,cukier_g,blonnik_g,sol_g,kofeina_mg,zrodlo_wo,zrodlo_cena
+P01,Pasibus,burger,Standard (wolowina),475,34.99,945,39.1,57.0,17.1,71.9,10.0,3.8,2.40,0,fatsecret_pasibus,ubereats_2026_05
+P02,Pasibus,burger,Bebek (wolowina),448,31.99,954,39.7,55.4,14.7,76.5,10.0,3.7,2.35,0,fatsecret_pasibus,ubereats_2026_05
+P03,Pasibus,burger,Wloski Pastuch (wolowina),255,33.99,884,39.0,62.0,21.0,38.0,8.0,3.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P04,Pasibus,burger,Klasyk (wolowina),428,26.99,911,35.5,53.1,14.7,74.7,10.0,3.1,2.36,0,fatsecret_pasibus,ubereats_2026_05
+P05,Pasibus,burger,Awokadus (wolowina),291,39.99,1003,37.0,73.0,21.0,48.0,8.0,3.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P06,Pasibus,burger,Polkahoma (wolowina),258,37.99,664,29.0,40.0,13.0,46.0,11.0,3.0,4.00,0,pasibus_oficjalna,ubereats_2026_05
+P07,Pasibus,burger,Potrojna Polkahoma (wolowina),335,45.99,793,40.0,49.0,18.0,47.0,11.0,3.0,5.00,0,pasibus_oficjalna,ubereats_2026_05
+P08,Pasibus,burger,Pol Dog,190,13.99,397,19.0,20.0,7.0,35.0,11.0,3.0,3.00,0,pasibus_oficjalna,ubereats_2026_05
+P10,Pasibus,burger,Potrojny Smash Classic (wolowina),275,30.99,777,32.0,51.0,19.0,43.0,12.0,3.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P11,Pasibus,burger_kura,Original Chicken,248,24.99,638,27.0,35.0,5.0,53.0,11.0,3.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P12,Pasibus,wypasik,Cheese Pasik (wolowina),175,19.99,521,18.0,33.0,8.0,36.0,8.0,2.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P14,Pasibus,wlap,Standard Wlap (kura),210,22.99,449,22.0,23.0,5.0,37.0,5.0,2.0,3.00,0,fatsecret_pasibus,ubereats_2026_05
+P15,Pasibus,side,Pasi Frytki (175g),175,14.99,534,5.0,28.0,3.0,54.0,2.0,4.0,0.70,0,fatsecret_pasibus,ubereats_2026_05
+P16,Pasibus,side,Pasi Bataty,140,16.99,504,2.0,25.0,3.0,44.0,14.0,5.0,4.00,0,fatsecret_pasibus,ubereats_2026_05
+P17,Pasibus,side,Pasi Nachosy (100g),100,12.99,496,7.0,25.0,3.0,57.0,2.0,3.0,1.00,0,fatsecret_pasibus,ubereats_2026_05
+P18,Pasibus,side,Popsy z Kurczaka 6 szt,100,19.00,205,15.0,11.0,2.0,11.0,1.0,1.0,1.00,0,fatsecret_pasibus,ubereats_2026_05
+P19,Pasibus,side,Popsy z Kurczaka 12 szt,200,32.00,410,30.0,22.0,4.0,22.0,2.0,2.0,2.00,0,fatsecret_pasibus,ubereats_2026_05
+P20,Pasibus,side,Kulki Serowe 4 szt,92,15.99,331,16.1,27.7,8.0,3.8,1.0,1.0,0.71,0,fatsecret_pasibus,ubereats_2026_05
+P21,Pasibus,side,Kulki Serowe 8 szt,184,24.99,662,32.2,55.4,16.0,7.6,2.0,2.0,1.42,0,fatsecret_pasibus,ubereats_2026_05
+P22,Pasibus,napoj,Pasi Lemoniada 500ml,500,16.00,357,0.0,0.0,0.0,88.6,60.0,0.0,0.07,0,fatsecret_pasibus,ubereats_2026_05
+P23,Pasibus,napoj,Kompocik 400ml,400,14.00,125,0.0,0.0,0.0,30.0,30.0,0.0,0.02,0,pasibus_oficjalna,ubereats_2026_05
+P24,Pasibus,napoj,Coca-Cola 330ml,330,10.50,139,0.0,0.0,0.0,35.0,35.0,0.0,0.04,32,producent,ubereats_2026_05
+P25,Pasibus,napoj,Coca-Cola Zero 330ml,330,10.50,1,0.0,0.0,0.0,0.0,0.0,0.0,0.03,32,producent,ubereats_2026_05
+P26,Pasibus,napoj,Fanta 330ml,330,10.50,149,0.0,0.0,0.0,36.0,36.0,0.0,0.02,0,producent,ubereats_2026_05
+P27,Pasibus,napoj,Sprite 330ml,330,10.50,139,0.0,0.0,0.0,33.0,33.0,0.0,0.02,0,producent,ubereats_2026_05
+P28,Pasibus,napoj,Cappy Nektar Pomarancza 330ml,330,13.00,145,1.0,0.0,0.0,36.0,32.0,0.0,0.02,0,producent,ubereats_2026_05
+P29,Pasibus,napoj,Cappy Nektar Jablko 330ml,330,13.00,152,0.0,0.0,0.0,38.0,36.0,0.0,0.02,0,producent,ubereats_2026_05
+P30,Pasibus,napoj,Zywiec Woda 500ml,500,10.00,0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0,producent,ubereats_2026_05
+P31,Pasibus,deser,Jablecz Nick,171,15.26,256,4.0,7.0,4.0,46.0,31.0,2.0,0.00,0,pasibus_oficjalna,ubereats_2026_05
+Z01,Pasibus,zestaw,Standard ZESTAW (burger + frytki),650,41.99,1479,44.1,85.0,20.1,125.9,12.0,7.8,3.10,0,bundle_skladniki,ubereats_2026_05
+Z02,Pasibus,zestaw,Bebek ZESTAW (burger + frytki),623,38.99,1488,44.7,83.4,17.7,130.5,12.0,7.7,3.05,0,bundle_skladniki,ubereats_2026_05
+Z03,Pasibus,zestaw,Klasyk ZESTAW (burger + frytki),603,33.99,1445,40.5,81.1,17.7,128.7,12.0,7.1,3.06,0,bundle_skladniki,ubereats_2026_05
+Z04,Pasibus,zestaw,Wloski Pastuch ZESTAW (burger + frytki),430,40.99,1418,44.0,90.0,24.0,92.0,10.0,7.0,3.70,0,bundle_skladniki,ubereats_2026_05
+Z05,Pasibus,zestaw,Awokadus ZESTAW (burger + frytki),466,46.99,1537,42.0,101.0,24.0,102.0,10.0,7.0,3.70,0,bundle_skladniki,ubereats_2026_05
+Z06,Pasibus,zestaw,Polkahoma ZESTAW (burger + frytki),433,44.99,1198,34.0,68.0,16.0,100.0,13.0,7.0,4.70,0,bundle_skladniki,ubereats_2026_05
+Z08,Pasibus,zestaw,Original Chicken ZESTAW (burger + frytki),423,31.99,1172,32.0,63.0,8.0,107.0,13.0,7.0,3.70,0,bundle_skladniki,ubereats_2026_05
+Z09,Pasibus,zestaw,Cheese Pasik ZESTAW (wypasik + frytki),350,26.99,1055,23.0,61.0,11.0,90.0,10.0,6.0,3.70,0,bundle_skladniki,ubereats_2026_05
+Z11,Pasibus,zestaw,Standard Wlap ZESTAW (wlap + frytki),385,29.99,983,27.0,51.0,8.0,91.0,7.0,6.0,3.70,0,bundle_skladniki,ubereats_2026_05
+B01,Pasibus,bundle,Wypasik Duzy Box (3 Cheese Pasik + frytki),700,69.49,2097,59.0,127.0,27.0,162.0,26.0,10.0,9.70,0,bundle_skladniki,ubereats_2026_05
+B02,Pasibus,bundle,Wypasik Giga Box (6 Cheese Pasik + frytki),1225,133.95,3660,113.0,226.0,51.0,270.0,50.0,16.0,18.70,0,bundle_skladniki,ubereats_2026_05
+B03,Pasibus,bundle,Box dla Ekipy (4 Cheese Pasik + 4 Wlap + 3 frytki),2065,99.00,5482,175.0,308.0,61.0,454.0,58.0,28.0,26.10,0,bundle_skladniki,ubereats_2026_05
+B04,Pasibus,bundle,3x Cziks + frytki,562,34.99,1605,44.0,85.0,12.0,150.0,17.0,10.0,3.70,0,bundle_skladniki,ubereats_2026_05
+B05,Pasibus,bundle,2x Wypasik + 2x Wlap + 4x Frytki,1470,69.99,4076,100.0,224.0,38.0,362.0,34.0,24.0,14.80,0,bundle_skladniki,ubereats_2026_05
+B06,Pasibus,bundle,2x Burger wolowina (Bebek) + 2x Frytki + 6 Popsy,1346,89.99,3181,104.4,177.8,37.4,272.0,25.0,15.4,7.10,0,bundle_skladniki,ubereats_2026_05
+B07,Pasibus,bundle,2x Burger kura (Original Chicken) + 2x Frytki + 6 Popsy,946,79.99,2549,79.0,137.0,18.0,225.0,27.0,14.0,8.40,0,bundle_skladniki,ubereats_2026_05

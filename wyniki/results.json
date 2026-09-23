@@ -1,0 +1,120 @@
+{
+  "M_BASE": {
+    "obj": null,
+    "picks": [],
+    "totals": {},
+    "msg": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  "K_BASE": {
+    "obj": null,
+    "picks": [],
+    "totals": {},
+    "msg": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  "M_RELAXED": {
+    "obj": 60.97,
+    "picks": [
+      {
+        "id": "P17",
+        "x": 2.0,
+        "cena": 12.99
+      },
+      {
+        "id": "B04",
+        "x": 1.0,
+        "cena": 34.99
+      }
+    ],
+    "totals": {
+      "KCAL": 2597.0,
+      "BIAL": 58.0,
+      "TLUSZCZ": 135.0,
+      "NASYCONE": 18.0,
+      "WGL": 264.0,
+      "BLONNIK": 16.0,
+      "CUKIER": 21.0,
+      "SOL": 5.7,
+      "KOFEINA": 0.0
+    }
+  },
+  "K_RELAXED": {
+    "obj": 75.95999999999958,
+    "picks": [
+      {
+        "id": "P08",
+        "x": 1.0,
+        "cena": 13.99
+      },
+      {
+        "id": "P15",
+        "x": 2.0,
+        "cena": 14.99
+      },
+      {
+        "id": "P17",
+        "x": 1.0,
+        "cena": 12.99
+      },
+      {
+        "id": "P18",
+        "x": 1.0,
+        "cena": 19.0
+      }
+    ],
+    "totals": {
+      "KCAL": 2166.0,
+      "BIAL": 51.0,
+      "TLUSZCZ": 112.0,
+      "NASYCONE": 18.0,
+      "WGL": 211.0,
+      "BLONNIK": 15.0,
+      "CUKIER": 18.0,
+      "SOL": 6.4,
+      "KOFEINA": 0.0
+    }
+  },
+  "M_NO_FAT": {
+    "obj": null,
+    "picks": [],
+    "totals": {},
+    "msg": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  "M_NO_SUGAR": {
+    "obj": null,
+    "picks": [],
+    "totals": {},
+    "msg": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  "M_NO_FIBER": {
+    "obj": null,
+    "picks": [],
+    "totals": {},
+    "msg": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  "M_NO_FAT_FIBER": {
+    "obj": 60.97,
+    "picks": [
+      {
+        "id": "P17",
+        "x": 2.0,
+        "cena": 12.99
+      },
+      {
+        "id": "B04",
+        "x": 1.0,
+        "cena": 34.99
+      }
+    ],
+    "totals": {
+      "KCAL": 2597.0,
+      "BIAL": 58.0,
+      "TLUSZCZ": 135.0,
+      "NASYCONE": 18.0,
+      "WGL": 264.0,
+      "BLONNIK": 16.0,
+      "CUKIER": 21.0,
+      "SOL": 5.7,
+      "KOFEINA": 0.0
+    }
+  }
+}
