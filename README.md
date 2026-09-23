@@ -1,6 +1,6 @@
 # Programowanie całkowitoliczbowe: optymalna dieta w Pasibusie
 
-> ### Czy da się zjeść cały dzień w sieci burgerowej, zmieścić się w normach żywieniowych i ile to kosztuje?
+Czy da się zjeść cały dzień w sieci burgerowej, zmieścić się w normach żywieniowych i ile to kosztuje?
 
 Projekt z Probabilistycznych i Deterministycznych Modeli Optymalizacji Decyzji (WNE UW, 2026) rozwiązuje klasyczny problem diety Stiglera w wersji całkowitoliczbowej, bo burgery kupuje się w całych sztukach.
 
@@ -31,10 +31,15 @@ $c_i$ to cena pozycji $i$, a $x_i$ to liczba zamówionych sztuk. Ograniczenia to
 
 ## Wykresy
 
-| Cena a kalorie | Realizacja norm |
-|---|---|
-| ![Pozycje menu w przestrzeni cena–kalorie](charts/cena_vs_kalorie.png) | ![Realizacja norm w optimum M i K](charts/realizacja_norm_M_K.png) |
-| Każdy punkt to pozycja menu. Gwiazdki to pozycje wybrane do optymalnego menu. Leżą tam, gdzie kalorie są najtańsze. | Jaką część górnego limitu każdej normy pokrywa optymalne menu. Kalorie i tłuszcz są blisko limitu, białko i błonnik daleko. |
+| Cena a kalorie |
+|:-:|
+| ![Pozycje menu w przestrzeni cena–kalorie](charts/cena_vs_kalorie.png) |
+| Każdy punkt to pozycja menu. Gwiazdki to pozycje wybrane do optymalnego menu. Leżą tam, gdzie kalorie są najtańsze. |
+
+| Realizacja norm w optymalnym menu |
+|:-:|
+| ![Realizacja norm w optimum M i K](charts/realizacja_norm_M_K.png) |
+| Jaką część górnego limitu każdej normy pokrywa optymalne menu. Kalorie i tłuszcz są blisko limitu, białko i błonnik daleko. |
 
 ## Kod
 
