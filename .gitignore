@@ -1,2 +1,3 @@
 latex/
 __pycache__/
+.venv/

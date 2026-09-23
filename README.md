@@ -1,5 +1,7 @@
 # Programowanie całkowitoliczbowe: optymalna dieta w Pasibusie
 
+[![Weryfikacja modelu](https://github.com/cbrzywczy/milp-burger-diet-optimization/actions/workflows/verify.yml/badge.svg)](https://github.com/cbrzywczy/milp-burger-diet-optimization/actions/workflows/verify.yml)
+
 Czy da się zjeść cały dzień w sieci burgerowej, zmieścić się w normach żywieniowych i ile to kosztuje?
 
 Projekt z Probabilistycznych i Deterministycznych Modeli Optymalizacji Decyzji (WNE UW, 2026) rozwiązuje klasyczny problem diety Stiglera w wersji całkowitoliczbowej, bo burgery kupuje się w całych sztukach.
@@ -29,6 +31,14 @@ $c_i$ to cena pozycji $i$, a $x_i$ to liczba zamówionych sztuk. Ograniczenia to
 - Mega Deal 3x Cziks z frytkami ma najlepszy w menu stosunek kalorii do ceny i stanowi 57% kosztu menu M. W wariancie K niższy limit kalorii wyklucza boxy.
 - Tłuszcz w optimum: 135 g (M) przy zalecanym maksimum 105 g oraz 112 g (K) przy limicie 86 g.
 
+## Ocena modelu
+
+- **Niezależna implementacja.** Model jest zapisany w SAS `PROC LP` i osobno w Pythonie (solver HiGHS). Skrypt `solve_local.py` odtwarza wszystkie wyniki z `results.json`.
+- **Zależność od założeń.** Koszt optimum zależy od tego, jak mocno zluzujemy normy tłuszczu i błonnika. To wybór scenariuszowy, a nie wynik modelu.
+- **Jakość danych.** Część wartości odżywczych pochodzi z FatSecret, a pojedyncze braki uzupełniłam średnią z kategorii. Przykład ryzyka: FatSecret podaje dwie wersje burgera Bebek, różniące się o 270 kcal i 27 g tłuszczu.
+- **Ceny** z Uber Eats zawierają 10–15% marży za dostawę. W lokalu optimum byłoby tańsze.
+- **Zakres modelu.** Model dotyczy jednego dnia i nie uwzględnia smaku ani powtarzalności posiłków. Górny limit 5 sztuk pozycji to arbitralne założenie.
+
 ## Wykresy
 
 | Cena a kalorie |
@@ -51,11 +61,13 @@ $c_i$ to cena pozycji $i$, a $x_i$ to liczba zamówionych sztuk. Ograniczenia to
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" width="18"> | [`make_outputs.py`](kod/make_outputs.py) | tabele i wykresy |
 |  | [`menu.csv`](menu.csv), [`normy.csv`](normy.csv) | menu z profilem odżywczym, widełki norm M i K |
 |  | [`results.json`](wyniki/results.json) | wyniki wszystkich scenariuszy |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" width="18"> | [`check_results.py`](kod/check_results.py) | porównanie nowych wyników z zapisanymi (CI) |
 
 ```bash
-pip install numpy scipy
-python kod/solve_local.py   # odtwarza wyniki/results.json
+uv run python kod/solve_local.py   # odtwarza wyniki/results.json
 ```
+
+Przy każdej zmianie w repozytorium GitHub Actions rozwiązuje wszystkie scenariusze od nowa i porównuje wyniki z `results.json` ([`verify.yml`](.github/workflows/verify.yml)).
 
 ## Dane
 

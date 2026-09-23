@@ -1,0 +1,22 @@
+name: Weryfikacja modelu
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Zachowanie zapisanych wyników
+        run: cp wyniki/results.json "$RUNNER_TEMP/results_saved.json"
+
+      - name: Ponowne rozwiązanie wszystkich scenariuszy
+        run: uv run python kod/solve_local.py
+
+      - name: Porównanie z zapisanymi wynikami
+        run: uv run python kod/check_results.py "$RUNNER_TEMP/results_saved.json" wyniki/results.json
